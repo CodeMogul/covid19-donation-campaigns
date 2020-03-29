@@ -67,5 +67,51 @@
        "name": "OLA Foundation",
        "link": "https://ola.foundation/"
     }
+ },
+  {
+    "name": "Food To Daily Wage Earners' Families",
+    "description": "Help Us Distribute Food To Daily Wage Earners' Families Suffering From Lockdown Due To Coronavirus",
+    "tax_exemption": true,
+    "initiator": {
+       "name": "Child Help Foundation",
+       "type": "NGO",
+       "link": "https://www.childhelpfoundation.in/"
+    },
+    "category": "Food & Hunger",
+    "location": "Mumbai",
+    "link": "https://covid19.ketto.org/fundraiser/coronavirus",
+    "avatar_url": "https://in.childhelpfoundation.in/assets/img/chf-india1.png",
+    "image_url": "https://d1vdjc70h9nzd9.cloudfront.net/media/campaign/171000/171615/image/f6df2f35c801b86767a9536aa38abf081f47122e.jpg",
+    "partner_ngo": {
+       "name": "Self (Child Help Foundation)",
+       "link": "https://www.childhelpfoundation.in/"
+    },
+    "partner_platform": {
+       "name": "Ketto",
+       "link": "https://covid19.ketto.org/"
+    }
+ },
+  {
+    "name": "Fight against COVID-19",
+    "description": "To fight COVID-19, we need to equip our healthcare professionals by giving high quality personal protective equipment (PPE). Bizongo is proud to help this fight by auto-replenishing essential supplies to all who need it.",
+    "tax_exemption": true,
+    "initiator": {
+       "name": "Bizongo",
+       "type": "Organisation",
+       "link": "https://bizongo.com/"
+    },
+    "category": "Medical",
+    "location": "India",
+    "link": "https://bizongo.com/fightagainstcovid19/",
+    "avatar_url": "https://bizongo.com/fightagainstcovid19/static/media/logo.aba55251.svg",
+    "image_url": "https://bizongo.com/fightagainstcovid19/static/media/banner_v2.b63a21cd.svg",
+    "partner_ngo": {
+       "name": "United Way",
+       "link": "https://www.unitedway.org/local/india"
+    },
+    "partner_platform": {
+       "name": "NA",
+       "link": "#"
+    }
  }
  ]

@@ -13,13 +13,6 @@ import './CampaignList.css';
 
 import listData from './campaigns.json';
 
-const IconText = ({ icon, text }) => (
-  <span>
-    {React.createElement(icon, { style: { marginRight: 8 } })}
-    {text}
-  </span>
-);
-
 export default class CampaignList extends Component {
   render() {
     return (
@@ -57,7 +50,7 @@ export default class CampaignList extends Component {
 
               <div className="item-content-container">
 
-                <Descriptions column={2} bordered size="small" style={{ flexBasis: '80%' }}>
+                <Descriptions column={2} bordered size="small" style={{ flexBasis: '85%' }}>
                   <Descriptions.Item label="An Initiative By">
                     <a href={initiator.link}>{initiator.name}</a>
                   </Descriptions.Item>
