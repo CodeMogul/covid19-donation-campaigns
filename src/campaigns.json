@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Feed The Daily Wager",
+    "description": "Food assistance for families affected by the COVID-19 lockdown.",
+    "tax_exemption": true,
+    "initiator": {
+       "name": "Zomato",
+       "type": "Organisation",
+       "link": "https://www.zomato.com/"
+    },
+    "category": "Food & Hunger",
+    "location": "India",
+    "link": "https://www.feedingindia.org/donate",
+    "avatar_url": "https://pbs.twimg.com/profile_images/1234774158082359296/F2zPiOLk_400x400.jpg",
+    "image_url": "https://static.wixstatic.com/media/a26cbf_46267b52c6824d269d58d3b2a2447b8e~mv2.png/v1/fill/w_975,h_575,al_c,q_90/a26cbf_46267b52c6824d269d58d3b2a2447b8e~mv2.webp",
+    "partner_ngo": {
+       "name": "Hunger Heroes",
+       "link": "https://www.feedingindia.org/"
+    },
+    "partner_platform": {
+       "name": "Zomato Feeding India",
+       "link": "https://www.feedingindia.org/"
+    }
+ },
+  {
+    "name": "People for Captains",
+    "description": "Every Captain onboard has delivered an outstanding performance and gone the extra mile to help us reach our destination. It is the need of the hour for us as an organization, to step up and pay them back with generosity during this crisis. ",
+    "tax_exemption": true,
+    "initiator": {
+       "name": "Rapido",
+       "type": "Organisation",
+       "link": "https://rapido.bike/"
+    },
+    "category": "Food & Hunger",
+    "location": "India",
+    "link": "https://rapido.goodera.com/#/donations/event40935",
+    "avatar_url": "https://pbs.twimg.com/profile_images/1113462878416252934/QBc0WRsJ_400x400.png",
+    "image_url": "https://api.p3fy.com/api/containers/nextgen-objects/download/3Z4vrh4uIFmLXSL2GvgvbRllAiGqRL95iGfTgHa4YzFSJ1N8HK0OEjX5M0Qks1L9_fundraiserbannerfinal.jpg",
+    "partner_ngo": {
+       "name": "Surabhi Foundation Trust",
+       "link": "https://surabhifoundation.org/"
+    },
+    "partner_platform": {
+       "name": "Goodera",
+       "link": "http://www.goodera.com/"
+    }
+ },
+  {
+    "name": "Drive The Driver",
+    "description": "Millions of drivers can’t work from home. Across Ola, other cab services, and autos - drivers everywhere are off the roads. Help us move their lives forward. Together, we’re stronger.",
+    "tax_exemption": true,
+    "initiator": {
+       "name": "OLA",
+       "type": "Organisation",
+       "link": "https://www.olacabs.com/"
+    },
+    "category": "Food & Hunger, Medical",
+    "location": "India",
+    "link": "https://ola.foundation/donate",
+    "avatar_url": "https://pbs.twimg.com/profile_images/1039032896441528320/pkc-Gz6Z_400x400.jpg",
+    "image_url": "https://ola.foundation/images/donate/contribute-bg-v2.png",
+    "partner_ngo": {
+       "name": "OLA Foundation",
+       "link": "https://ola.foundation/"
+    },
+    "partner_platform": {
+       "name": "OLA Foundation",
+       "link": "https://ola.foundation/"
+    }
+ }
+ ]
