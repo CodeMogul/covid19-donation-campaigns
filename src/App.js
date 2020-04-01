@@ -7,12 +7,10 @@ import { HeartFilled } from '@ant-design/icons';
 import listData from './campaigns.json';
 
 const categoriesSet = new Set();
-const locationsSet = new Set();
 const organiserTypes = ['Organisation' ,'NGO' , 'Individual', 'Goverment', 'Non-Profit Organisation'];
 
 listData.forEach(item => {
   item.category.split(', ').forEach(category => categoriesSet.add(category));
-  locationsSet.add(item.location);
 })
 
 function Header(props) {
@@ -36,16 +34,14 @@ function Footer(props) {
 function App() {
   const [categories, setCategories ] = useState([]);
   const [organisers, setOrganisers ] = useState([]);
-  const [locations, setLocations ] = useState([]);
 
   const listItems = listData.filter(item => {
-    let hasCategory = true, hasOrganiser  = true, hasLocation = true;
+    let hasCategory = true, hasOrganiser  = true;
     const item_categories = item.category.split(', ');
 
     if(categories.length) hasCategory = item_categories.some(cat => categories.includes(cat));
     if(organisers.length) hasOrganiser = organisers.includes(item.initiator.type);
-    if(locations.length) hasLocation = locations.includes(item.location);
-    return hasCategory && hasOrganiser && hasLocation;
+    return hasCategory && hasOrganiser;
   })
 
   return (
@@ -55,8 +51,6 @@ function App() {
         <Filter
           categories={[...categoriesSet]}
           organiserTypes={organiserTypes}
-          locations={[...locationsSet]}
-          setLocations={setLocations}
           setOrganisers={setOrganisers}
           setCategories={setCategories}
           />

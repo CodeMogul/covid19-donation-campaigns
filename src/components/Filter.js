@@ -14,7 +14,6 @@ export default function Filter(props) {
       <Select
         mode="multiple"
         placeholder="Please select"
-        // defaultValue={['a10', 'c12']}
         onChange={props.setCategories}
         tokenSeparators=","
         className="dropdown"
@@ -34,19 +33,6 @@ export default function Filter(props) {
       >
         {
           props.organiserTypes.map(category => <Option key={category} value={category}>{category}</Option>)
-        }
-      </Select>
-
-      <label>at Locations</label>
-      <Select
-        mode="multiple"
-        placeholder="Please select"
-        onChange={props.setLocations}
-        tokenSeparators=","
-        className="dropdown"
-      >
-        {
-          props.locations.map(category => <Option key={category} value={category}>{category}</Option>)
         }
       </Select>
     </div>

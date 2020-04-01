@@ -5,13 +5,13 @@
 }
 
 .filter-container label{
-  flex-basis: 8%;
+  flex-basis: 10%;
   line-height: 32px;
   text-align: center;
 }
 
 .dropdown {
-  flex-basis: 25.3%;
+  flex-basis: 40%;
 }
 
 @media screen and (max-width: 576px) {
