@@ -11,9 +11,8 @@ const locationsSet = new Set();
 const organiserTypes = ['Organisation' ,'NGO' , 'Individual', 'Goverment', 'Non-Profit Organisation'];
 
 listData.forEach(item => {
-  item.category.split(',').forEach(category => categoriesSet.add(category));
+  item.category.split(', ').forEach(category => categoriesSet.add(category));
   locationsSet.add(item.location);
-
 })
 
 function Header(props) {

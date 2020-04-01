@@ -1,117 +1,232 @@
 [
-  {
-    "name": "Feed The Daily Wager",
-    "description": "Food assistance for families affected by the COVID-19 lockdown.",
-    "tax_exemption": true,
-    "initiator": {
-       "name": "Zomato",
-       "type": "Organisation",
-       "link": "https://www.zomato.com/"
-    },
-    "category": "Food & Hunger",
-    "location": "India",
-    "link": "https://www.feedingindia.org/donate",
-    "avatar_url": "https://pbs.twimg.com/profile_images/1234774158082359296/F2zPiOLk_400x400.jpg",
-    "image_url": "https://static.wixstatic.com/media/a26cbf_46267b52c6824d269d58d3b2a2447b8e~mv2.png/v1/fill/w_975,h_575,al_c,q_90/a26cbf_46267b52c6824d269d58d3b2a2447b8e~mv2.webp",
-    "partner_ngo": {
-       "name": "Hunger Heroes",
-       "link": "https://www.feedingindia.org/"
-    },
-    "partner_platform": {
-       "name": "Zomato Feeding India",
-       "link": "https://www.feedingindia.org/"
-    }
- },
-  {
-    "name": "People for Captains",
-    "description": "Every Captain onboard has delivered an outstanding performance and gone the extra mile to help us reach our destination. It is the need of the hour for us as an organization, to step up and pay them back with generosity during this crisis. ",
-    "tax_exemption": true,
-    "initiator": {
-       "name": "Rapido",
-       "type": "Organisation",
-       "link": "https://rapido.bike/"
-    },
-    "category": "Food & Hunger",
-    "location": "India",
-    "link": "https://rapido.goodera.com/#/donations/event40935",
-    "avatar_url": "https://pbs.twimg.com/profile_images/1113462878416252934/QBc0WRsJ_400x400.png",
-    "image_url": "https://api.p3fy.com/api/containers/nextgen-objects/download/3Z4vrh4uIFmLXSL2GvgvbRllAiGqRL95iGfTgHa4YzFSJ1N8HK0OEjX5M0Qks1L9_fundraiserbannerfinal.jpg",
-    "partner_ngo": {
-       "name": "Surabhi Foundation Trust",
-       "link": "https://surabhifoundation.org/"
-    },
-    "partner_platform": {
-       "name": "Goodera",
-       "link": "http://www.goodera.com/"
-    }
- },
-  {
-    "name": "Drive The Driver",
-    "description": "Millions of drivers can’t work from home. Across Ola, other cab services, and autos - drivers everywhere are off the roads. Help us move their lives forward. Together, we’re stronger.",
-    "tax_exemption": true,
-    "initiator": {
-       "name": "OLA",
-       "type": "Organisation",
-       "link": "https://www.olacabs.com/"
-    },
-    "category": "Food & Hunger, Medical",
-    "location": "India",
-    "link": "https://ola.foundation/donate",
-    "avatar_url": "https://pbs.twimg.com/profile_images/1039032896441528320/pkc-Gz6Z_400x400.jpg",
-    "image_url": "https://ola.foundation/images/donate/contribute-bg-v2.png",
-    "partner_ngo": {
-       "name": "OLA Foundation",
-       "link": "https://ola.foundation/"
-    },
-    "partner_platform": {
-       "name": "OLA Foundation",
-       "link": "https://ola.foundation/"
-    }
- },
-  {
-    "name": "Food To Daily Wage Earners' Families",
-    "description": "Help Us Distribute Food To Daily Wage Earners' Families Suffering From Lockdown Due To Coronavirus",
-    "tax_exemption": true,
-    "initiator": {
-       "name": "Child Help Foundation",
-       "type": "NGO",
-       "link": "https://www.childhelpfoundation.in/"
-    },
-    "category": "Food & Hunger",
-    "location": "Mumbai",
-    "link": "https://covid19.ketto.org/fundraiser/coronavirus",
-    "avatar_url": "https://in.childhelpfoundation.in/assets/img/chf-india1.png",
-    "image_url": "https://d1vdjc70h9nzd9.cloudfront.net/media/campaign/171000/171615/image/f6df2f35c801b86767a9536aa38abf081f47122e.jpg",
-    "partner_ngo": {
-       "name": "Self (Child Help Foundation)",
-       "link": "https://www.childhelpfoundation.in/"
-    },
-    "partner_platform": {
-       "name": "Ketto",
-       "link": "https://covid19.ketto.org/"
-    }
- },
-  {
-    "name": "Fight against COVID-19",
-    "description": "To fight COVID-19, we need to equip our healthcare professionals by giving high quality personal protective equipment (PPE). Bizongo is proud to help this fight by auto-replenishing essential supplies to all who need it.",
-    "tax_exemption": true,
-    "initiator": {
-       "name": "Bizongo",
-       "type": "Organisation",
-       "link": "https://bizongo.com/"
-    },
-    "category": "Medical",
-    "location": "India",
-    "link": "https://bizongo.com/fightagainstcovid19/",
-    "avatar_url": "https://bizongo.com/fightagainstcovid19/static/media/logo.aba55251.svg",
-    "image_url": "https://bizongo.com/fightagainstcovid19/static/media/banner_v2.b63a21cd.svg",
-    "partner_ngo": {
-       "name": "United Way",
-       "link": "https://www.unitedway.org/local/india"
-    },
-    "partner_platform": {
-       "name": "NA",
-       "link": "#"
-    }
- }
- ]
+   {
+     "name": "PMCARES",
+     "description": "Prime Minister's Citizen Assistance and Relief in Emergency Situations Fund",
+     "tax_exemption": true,
+     "initiator": {
+        "name": "PM INDIA",
+        "type": "Goverment",
+        "link": "https://www.pmindia.gov.in/en/main/"
+     },
+     "category": "Food & Hunger, Medical, Financial Relief",
+     "location": "India",
+     "link": "https://www.pmindia.gov.in/en/?query#",
+     "avatar_url": "https://toppng.com/uploads/preview/mindia-logo-government-of-india-11563883095biiq6cv5cn.png",
+     "image_url": "https://www.pmindia.gov.in/wp-content/uploads/2020/03/COVID_19_Home.jpg",
+     "partner_ngo": {
+        "name": "NA",
+        "link": "#"
+     },
+     "partner_platform": {
+        "name": "Multiple",
+        "link": "#"
+     }
+  },
+   {
+     "name": "Feed The Daily Wager",
+     "description": "Food assistance for families affected by the COVID-19 lockdown.",
+     "tax_exemption": true,
+     "initiator": {
+        "name": "Zomato",
+        "type": "Organisation",
+        "link": "https://www.zomato.com/"
+     },
+     "category": "Food & Hunger",
+     "location": "India",
+     "link": "https://www.feedingindia.org/donate",
+     "avatar_url": "https://pbs.twimg.com/profile_images/1234774158082359296/F2zPiOLk_400x400.jpg",
+     "image_url": "https://static.wixstatic.com/media/a26cbf_46267b52c6824d269d58d3b2a2447b8e~mv2.png/v1/fill/w_975,h_575,al_c,q_90/a26cbf_46267b52c6824d269d58d3b2a2447b8e~mv2.webp",
+     "partner_ngo": {
+        "name": "Hunger Heroes",
+        "link": "https://www.feedingindia.org/"
+     },
+     "partner_platform": {
+        "name": "Zomato Feeding India",
+        "link": "https://www.feedingindia.org/"
+     }
+  },
+   {
+     "name": "People for Captains",
+     "description": "Every Captain onboard has delivered an outstanding performance and gone the extra mile to help us reach our destination. It is the need of the hour for us as an organization, to step up and pay them back with generosity during this crisis. ",
+     "tax_exemption": true,
+     "initiator": {
+        "name": "Rapido",
+        "type": "Organisation",
+        "link": "https://rapido.bike/"
+     },
+     "category": "Food & Hunger",
+     "location": "India",
+     "link": "https://rapido.goodera.com/#/donations/event40935",
+     "avatar_url": "https://pbs.twimg.com/profile_images/1113462878416252934/QBc0WRsJ_400x400.png",
+     "image_url": "https://api.p3fy.com/api/containers/nextgen-objects/download/3Z4vrh4uIFmLXSL2GvgvbRllAiGqRL95iGfTgHa4YzFSJ1N8HK0OEjX5M0Qks1L9_fundraiserbannerfinal.jpg",
+     "partner_ngo": {
+        "name": "Surabhi Foundation Trust",
+        "link": "https://surabhifoundation.org/"
+     },
+     "partner_platform": {
+        "name": "Goodera",
+        "link": "http://www.goodera.com/"
+     }
+  },
+   {
+     "name": "Drive The Driver",
+     "description": "Millions of drivers can’t work from home. Across Ola, other cab services, and autos - drivers everywhere are off the roads. Help us move their lives forward. Together, we’re stronger.",
+     "tax_exemption": true,
+     "initiator": {
+        "name": "OLA",
+        "type": "Organisation",
+        "link": "https://www.olacabs.com/"
+     },
+     "category": "Food & Hunger, Medical",
+     "location": "India",
+     "link": "https://ola.foundation/donate",
+     "avatar_url": "https://pbs.twimg.com/profile_images/1039032896441528320/pkc-Gz6Z_400x400.jpg",
+     "image_url": "https://ola.foundation/images/donate/contribute-bg-v2.png",
+     "partner_ngo": {
+        "name": "OLA Foundation",
+        "link": "https://ola.foundation/"
+     },
+     "partner_platform": {
+        "name": "OLA Foundation",
+        "link": "https://ola.foundation/"
+     }
+  },
+   {
+     "name": "Food To Daily Wage Earners' Families",
+     "description": "Help Us Distribute Food To Daily Wage Earners' Families Suffering From Lockdown Due To Coronavirus",
+     "tax_exemption": true,
+     "initiator": {
+        "name": "Child Help Foundation",
+        "type": "NGO",
+        "link": "https://www.childhelpfoundation.in/"
+     },
+     "category": "Food & Hunger",
+     "location": "Mumbai",
+     "link": "https://covid19.ketto.org/fundraiser/coronavirus",
+     "avatar_url": "https://in.childhelpfoundation.in/assets/img/chf-india1.png",
+     "image_url": "https://d1vdjc70h9nzd9.cloudfront.net/media/campaign/171000/171615/image/f6df2f35c801b86767a9536aa38abf081f47122e.jpg",
+     "partner_ngo": {
+        "name": "Self (Child Help Foundation)",
+        "link": "https://www.childhelpfoundation.in/"
+     },
+     "partner_platform": {
+        "name": "Ketto",
+        "link": "https://covid19.ketto.org/"
+     }
+  },
+   {
+     "name": "Fight against COVID-19",
+     "description": "To fight COVID-19, we need to equip our healthcare professionals by giving high quality personal protective equipment (PPE). Bizongo is proud to help this fight by auto-replenishing essential supplies to all who need it.",
+     "tax_exemption": true,
+     "initiator": {
+        "name": "Bizongo",
+        "type": "Organisation",
+        "link": "https://bizongo.com/"
+     },
+     "category": "Medical",
+     "location": "India",
+     "link": "https://bizongo.com/fightagainstcovid19/",
+     "avatar_url": "https://bizongo.com/fightagainstcovid19/static/media/logo.aba55251.svg",
+     "image_url": "https://bizongo.com/fightagainstcovid19/static/media/banner_v2.b63a21cd.svg",
+     "partner_ngo": {
+        "name": "United Way",
+        "link": "https://www.unitedway.org/local/india"
+     },
+     "partner_platform": {
+        "name": "Razorpay",
+        "link": "https://razorpay.com/"
+     }
+  },
+   {
+     "name": "The Safety Of Our Heroes- Gift A Mask!",
+     "description": "While we stay indoors, there are Doctors, Nurses & Hospital Staff who are silently, relentlessly working round the clock on the frontline against the COVID-19 outbreak, risking their lives to safeguard ours! ",
+     "tax_exemption": false,
+     "initiator": {
+        "name": "PharmEasy",
+        "type": "Organisation",
+        "link": "https://pharmeasy.in/"
+     },
+     "category": "Medical",
+     "location": "India",
+     "link": "https://pages.razorpay.com/COVID-19-Mask-1",
+     "avatar_url": "https://cdn.razorpay.com/logos/DBNlMgB8KmDutf_large.png",
+     "image_url": "https://cdn.razorpay.com/logos/DBNlMgB8KmDutf_large.png",
+     "partner_ngo": {
+        "name": "NA",
+        "link": "#"
+     },
+     "partner_platform": {
+        "name": "Razorpay",
+        "link": "https://razorpay.com/"
+     }
+  },
+   {
+     "name": "COVID-19 Relief Kits",
+     "description": "To provide basic ration and hygiene supply kits to those in dire need. Daily wagers, migrant workers, street children, single parents and beggars are worst hit due to the lock down.",
+     "tax_exemption": true,
+     "initiator": {
+        "name": "SAFA Society",
+        "type": "NGO",
+        "link": "http://safaindia.org/"
+     },
+     "category": "Medical",
+     "location": "Hyderabad",
+     "link": "https://pages.razorpay.com/Covid19Relief",
+     "avatar_url": "https://cdn.razorpay.com/logos/EW1o1w6wVgLbOe_large.png",
+     "image_url": "https://cdn.razorpay.com/logos/EW1o1w6wVgLbOe_large.png",
+     "partner_ngo": {
+        "name": "Self (Safa Society)",
+        "link": "http://safaindia.org/"
+     },
+     "partner_platform": {
+        "name": "Razorpay",
+        "link": "https://razorpay.com/"
+     }
+  },
+   {
+     "name": "Support COVID Hit Families",
+     "description": "Help daily wagers put food on the plate and donate One hygiene kit at a time",
+     "tax_exemption": true,
+     "initiator": {
+        "name": "give INDIA",
+        "type": "Non-Profit Organisation",
+        "link": "https://www.giveindia.org/"
+     },
+     "category": "Food & Hunger, Medical",
+     "location": "India",
+     "link": "https://indiafightscorona.giveindia.org/",
+     "avatar_url": "https://indiafightscorona.giveindia.org/images/give.png",
+     "image_url": "https://indiafightscorona.giveindia.org/_next/static/media/support-families-banner.02c377ec193aef45d0106c42e1c847a0.jpg",
+     "partner_ngo": {
+        "name": "Multiple",
+        "link": "#"
+     },
+     "partner_platform": {
+        "name": "Self (give INDIA)",
+        "link": "https://www.giveindia.org/"
+     }
+  },
+   {
+     "name": "Rahat COVID-19",
+     "description": "A large number of daily wagers are out of jobs, and are going back to their villages. A lot of them are stuck in cities with hardly any resources.. Goonj is gearing up for the aftermath of this pandemic..",
+     "tax_exemption": true,
+     "initiator": {
+        "name": "Goonj",
+        "type": "Non-Profit Organisation",
+        "link": "https://goonj.org/"
+     },
+     "category": "Food & Hunger, Financial Relief",
+     "location": "India",
+     "link": "https://goonj.org/support-covid-19-affected",
+     "avatar_url": "https://goonj.org/wp-content/uploads/2018/05/goonj-logo.png",
+     "image_url": "https://goonj.org/wp-content/uploads/2020/03/xfor-webpage-header.jpg.pagespeed.ic.p6QAIlHv1m.jpg",
+     "partner_ngo": {
+        "name": "NA",
+        "link": "#"
+     },
+     "partner_platform": {
+        "name": "NA",
+        "link": "#"
+     }
+  }
+  ]

@@ -11,6 +11,12 @@ import 'antd/es/button/style/css';
 import './CampaignList.css';
 
 export default class CampaignList extends Component {
+  getLinkText = (link, text) => {
+    if (link !== '#')
+      return (<a href={link} rel="noopener noreferrer" target="_blank">{text}</a>);
+    else return text;
+  }
+
   render() {
     return (
       <div>
@@ -21,7 +27,7 @@ export default class CampaignList extends Component {
             onChange: page => {
               console.log(page);
             },
-            pageSize: 10,
+            pageSize: 5,
           }}
           dataSource={this.props.listData}
           renderItem={({ initiator, ...item }) => (
@@ -36,7 +42,7 @@ export default class CampaignList extends Component {
             >
               <List.Item.Meta
                 avatar={<Avatar src={item.avatar_url} />}
-                title={<a href={item.link} rel="noopener noreferrer" target="_blank">{item.name}</a>}
+                title={ this.getLinkText(item.link, item.name) }
                 description={item.description}
               />
 
@@ -44,13 +50,13 @@ export default class CampaignList extends Component {
 
                 <Descriptions column={2} bordered size="small" style={{ flexBasis: '85%' }}>
                   <Descriptions.Item label="An Initiative By">
-                    <a href={initiator.link} rel="noopener noreferrer" target="_blank">{initiator.name}</a>
+                    { this.getLinkText(initiator.link, initiator.name) }
                   </Descriptions.Item>
                   <Descriptions.Item label="NGO Partner">
-                    <a href={item.partner_ngo.link} rel="noopener noreferrer" target="_blank">{item.partner_ngo.name}</a>
+                    { this.getLinkText(item.partner_ngo.link, item.partner_ngo.name) }
                   </Descriptions.Item>
                   <Descriptions.Item label="Platform Partner">
-                    <a href={item.partner_platform.link} rel="noopener noreferrer" target="_blank">{item.partner_platform.name}</a>
+                    { this.getLinkText(item.partner_platform.link, item.partner_platform.name) }
                   </Descriptions.Item>
                   <Descriptions.Item label="Tax Exempted u/s 80G">{item.tax_exemption ? "Yes" : "No"}</Descriptions.Item>
                   <Descriptions.Item label="Category">{item.category}</Descriptions.Item>
