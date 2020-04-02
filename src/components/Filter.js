@@ -15,7 +15,7 @@ export default function Filter(props) {
       <div className="filter-container">
         <label htmlFor="categories-select">Categories</label>
         <Select
-          mode="multiple"
+          defaultValue="All"
           placeholder="Please select"
           onChange={props.setCategories}
           tokenSeparators=","
@@ -29,7 +29,7 @@ export default function Filter(props) {
 
         <label>Organised By</label>
         <Select
-          mode="multiple"
+          defaultValue="All"
           placeholder="Please select"
           onChange={props.setOrganisers}
           tokenSeparators=","

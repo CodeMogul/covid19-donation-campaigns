@@ -6,8 +6,8 @@ import { HeartFilled } from '@ant-design/icons';
 
 import listData from './campaigns.json';
 
-const categoriesSet = new Set();
-const organiserTypes = ['Organisation' ,'NGO' , 'Individual', 'Goverment', 'Non-Profit Organisation'];
+const categoriesSet = new Set(['All']);
+const organiserTypes = ['All', 'Organisation', 'NGO', 'Individual', 'Goverment', 'Non-Profit Organisation'];
 
 listData.forEach(item => {
   item.category.split(', ').forEach(category => categoriesSet.add(category));
@@ -34,17 +34,19 @@ function Footer(props) {
 }
 
 function App() {
-  const [categories, setCategories ] = useState([]);
-  const [organisers, setOrganisers ] = useState([]);
+  const [category, setCategory] = useState('All');
+  const [organiser, setOrganiser] = useState('All');
 
-  const listItems = listData.filter(item => {
-    let hasCategory = true, hasOrganiser  = true;
-    const item_categories = item.category.split(', ');
+  const listItems = category === 'All' && organiser === 'All'
+    ? listData
+    : listData.filter(item => {
+      let hasCategory = true, hasOrganiser = true;
+      const item_categories = item.category.split(', ');
 
-    if(categories.length) hasCategory = item_categories.some(cat => categories.includes(cat));
-    if(organisers.length) hasOrganiser = organisers.includes(item.initiator.type);
-    return hasCategory && hasOrganiser;
-  })
+      if(category !== 'All') hasCategory = item_categories.some(cat => cat === category);
+      if(organiser !== 'All')  hasOrganiser = item.initiator.type === organiser;
+      return hasCategory && hasOrganiser;
+    })
 
   return (
     <div className="App">
@@ -53,10 +55,10 @@ function App() {
         <Filter
           categories={[...categoriesSet]}
           organiserTypes={organiserTypes}
-          setOrganisers={setOrganisers}
-          setCategories={setCategories}
-          />
-        <CampaignList listData={listItems}/>
+          setOrganisers={setOrganiser}
+          setCategories={setCategory}
+        />
+        <CampaignList listData={listItems} />
       </main>
       <Footer />
     </div>
