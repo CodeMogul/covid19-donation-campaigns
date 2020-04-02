@@ -11,9 +11,17 @@ import 'antd/es/button/style/css';
 import './CampaignList.css';
 
 export default class CampaignList extends Component {
-  getLinkText = (link, text) => {
+  getLinkText = (link, text, donationLink = false) => {
     if (link !== '#')
-      return (<a href={link} rel="noopener noreferrer" target="_blank">{text}</a>);
+      return (
+      <a
+        href={link}
+        className={donationLink ? 'donation-link' : 'external-link'}
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        {text}
+      </a>);
     else return text;
   }
 
@@ -34,7 +42,7 @@ export default class CampaignList extends Component {
             <List.Item
               key={item.name}
               extra={(
-                <a href={item.link} rel="noopener noreferrer" target="_blank">
+                <a className="donation-link" href={item.link} rel="noopener noreferrer" target="_blank">
                   <img className="cover-image" alt={`${initiator.name} Banner`} src={item.image_url} />
                 </a>
               )}
@@ -42,28 +50,28 @@ export default class CampaignList extends Component {
             >
               <List.Item.Meta
                 avatar={<Avatar src={item.avatar_url} />}
-                title={ this.getLinkText(item.link, item.name) }
+                title={ this.getLinkText(item.link, item.name, true) }
                 description={item.description}
               />
 
               <div className="item-content-container">
 
                 <Descriptions column={2} bordered size="small" style={{ flexBasis: '85%' }}>
-                  <Descriptions.Item label="An Initiative By">
+                  <Descriptions.Item label="Initiative By">
                     { this.getLinkText(initiator.link, initiator.name) }
                   </Descriptions.Item>
                   <Descriptions.Item label="NGO Partner">
                     { this.getLinkText(item.partner_ngo.link, item.partner_ngo.name) }
                   </Descriptions.Item>
-                  <Descriptions.Item label="Platform Partner">
+                  {/* <Descriptions.Item label="Platform Partner">
                     { this.getLinkText(item.partner_platform.link, item.partner_platform.name) }
-                  </Descriptions.Item>
+                  </Descriptions.Item> */}
                   <Descriptions.Item label="Tax Exempted u/s 80G">{item.tax_exemption ? "Yes" : "No"}</Descriptions.Item>
                   <Descriptions.Item label="Category">{item.category}</Descriptions.Item>
-                  <Descriptions.Item label="Location">{item.location}</Descriptions.Item>
+                  {/* <Descriptions.Item label="Location">{item.location}</Descriptions.Item> */}
                 </Descriptions>
 
-                <Button type="primary" href={item.link} target="_blank">Know More</Button>
+                <Button type="primary" className="donation-link" href={item.link} target="_blank">Know More</Button>
               </div>
 
             </List.Item>

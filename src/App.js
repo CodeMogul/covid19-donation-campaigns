@@ -23,11 +23,11 @@ function Footer(props) {
   return (
     <div className="app-header-footer-common app-footer">
       <p>Made with <HeartFilled style={{ color: 'red' }} /></p>
-      <p>We are under no circumstances affiliated to any of the above listed organisation or campaigns. And try to maintain the latest available information updates on our own.</p>
+      <p>Under no circumstances, are we affiliated to any of the above listed organisation or campaigns. And try to maintain the latest available information updates on our own.</p>
       <p style={{ marginBottom: 0 }}>
         If you face any issues, want to report any campaigns, report a change of info or would like to add your campaigns to the list
         {" "}
-        <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/sqiGGVRta3GJv9fE9">write to us.</a>
+        <a target="_blank" id="contact-us" rel="noopener noreferrer" href="https://forms.gle/sqiGGVRta3GJv9fE9">write to us.</a>
       </p>
     </div>
   )
