@@ -25,7 +25,7 @@ export default class CampaignList extends Component {
           size="large"
           pagination={{
             onChange: page => {
-              console.log(page);
+              document.getElementById("main-content").scrollIntoView();
             },
             pageSize: 5,
           }}

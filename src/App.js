@@ -49,7 +49,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <main className="content">
+      <main className="content" id="main-content">
         <Filter
           categories={[...categoriesSet]}
           organiserTypes={organiserTypes}

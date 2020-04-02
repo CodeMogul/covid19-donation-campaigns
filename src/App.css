@@ -23,6 +23,10 @@
 .banner {
   width: 100%;
   height: auto;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .app-header-footer-common {
