@@ -1,75 +1,65 @@
-.list-item {
-  margin: 24px 0px;
-  border: 1px solid #f0f0f0;
-  border-radius: 16px;
-  flex-direction: row-reverse;
-  padding: 0px !important;
+.card {
+  border-radius: 12px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  height: 100%;
 }
 
-.ant-list-vertical .ant-list-item-main {
-  padding: 10px;
+.ant-card-body {
+  padding: 16px;
 }
 
-.ant-list-vertical .ant-list-item-extra {
-  margin: 0px 20px 0px 0px;
-  flex-basis: 25%;
-}
+.tax-tag {
+  position: absolute;
+  top: 15px;
+  left: 0px;
+  background-color: #1890ff;
+  padding: 2px 10px;
+  color: white;;
+  font-weight: bolder;
+  z-index: 1;
+  border-radius: 0px 8px 8px 0px;
 
-.ant-list-item-meta-description {
-  min-height: 44px;
+  /* font: 16px 'Patua One', sans-serif; */
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,.3),
+              inset 0px 0px 20px rgba(0,0,0,0.1),
+              0px 1px 1px rgba(0,0,0,0.4);
+   /* background: -webkit-linear-gradient(top,#1eb2df, #17a7d2); */
 }
 
 .cover-image {
   width: 100%;
-  height: 100%;
-  max-height: 100%;
-  border-top-left-radius: 16px;
-  border-bottom-left-radius: 16px;
+  height: 200px;
+  border-radius: 12px 12px 0px 0px !important;
   object-fit: cover;
 }
 
 .cover-image:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
-.item-content-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.card-meta {
+  color: rgba(0, 0, 0, 0.45);
+  /* white-space: nowrap; */
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+
+    /* @supports (-webkit-line-clamp: 2) {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: initial;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    } */
 }
 
-@media screen and (max-width: 576px) {
-  .ant-list-vertical .ant-list-item-extra {
-    margin: unset;
-    flex-basis: 100%;
-    height: 200px;
-  }
-
-  .item-content-container {
-    flex-direction: column;
-    font-size: 12px;
-  }
-
-  .item-content-container .ant-btn {
-    margin-top: 10px;
-  }
-
-  .ant-descriptions-item-content, .ant-descriptions-item-label{
-    padding: 8px 8px !important;
-  }
-
-  .cover-image {
-    width: 100%;
-    height: 100%;
-    border-top-right-radius: 16px;
-    border-bottom-left-radius: 0px;
-    object-fit: cover;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .cover-image {
-    max-height: 234px;
-  }
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
