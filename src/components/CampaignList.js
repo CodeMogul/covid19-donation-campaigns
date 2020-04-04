@@ -51,7 +51,9 @@ export default class CampaignList extends Component {
             pageSize: 8,
           }}
           dataSource={this.props.listData}
-          renderItem={({ initiator, ...item }) => (
+          renderItem={({ initiator, ...item }) => {
+            const file_name = initiator.name.toLowerCase().split(' ').join('_');
+            return (
             <List.Item
               key={item.name}
             >
@@ -59,7 +61,11 @@ export default class CampaignList extends Component {
                 cover={
                   <div style={{ position: "relative" }}>
                     {item.tax_exemption && <span className="tax-tag">Tax Benefits</span>}
-                    <img className="cover-image" alt={`${initiator.name} Banner`} src={item.image_url} />
+                    <img
+                      className="cover-image"
+                      alt={`${initiator.name} Banner`}
+                      src={`/images/banner/${file_name}.jpg`}
+                    />
                   </div>
                 }
                 className="card"
@@ -70,7 +76,7 @@ export default class CampaignList extends Component {
               // ]}
               >
                 <Card.Meta
-                  avatar={<Avatar src={item.avatar_url} />}
+                  avatar={<Avatar src={`/images/avatar/${file_name}.png`} />}
                   title={this.getLinkText(item.link, item.name, true)}
                 />
                 <p className="card-meta">
@@ -105,6 +111,7 @@ export default class CampaignList extends Component {
               </Card>
             </List.Item>
           )}
+        }
         />
       </div>
     )

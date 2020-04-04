@@ -15,7 +15,7 @@ listData.forEach(item => {
 
 function Header(props) {
   return (
-    <img src="/COVID-19_banner_with_text.png" className="banner" alt="banner" />
+    <img src="/images/COVID-19_banner_with_text.png" className="banner" alt="banner" />
   )
 }
 
