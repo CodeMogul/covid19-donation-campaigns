@@ -297,5 +297,120 @@
          "name": "Multiple",
          "link": "#"
       }
+   },
+   {
+      "initiator": {
+         "name": "Prime Minister’s Relief Fund",
+         "type": "Goverment",
+         "link": "https://pmnrf.gov.in/en"
+      },
+      "name": "Prime Minister’s Relief Fund",
+      "description": "You can help rebuild the affected lives by making contributions to the Prime Minister's Relief Fund (CMDRF).",
+      "tax_exemption": true,
+      "category": "Food & Hunger, Financial Relief, Education, Medical",
+      "location": "India",
+      "link": "https://pmnrf.gov.in/en/online-donation",
+      "avatar_url": "https://dot.gov.in/sites/default/files/pmnrf.png",
+      "image_url": "https://taxguru.in/wp-content/uploads/2020/03/PMNRF.jpg",
+      "partner_ngo": {
+         "name": "NA",
+         "link": ""
+      },
+      "partner_platform": {
+         "name": "",
+         "link": ""
+      }
+   },
+   {
+      "initiator": {
+         "name": "Somaiya Hospital",
+         "type": "Organisation",
+         "link": "https://covid19.ketto.org/fundraiser/somaiyahospital"
+      },
+      "name": "Leading the Battle Against Covid-19",
+      "description": "grappling against time to upgrade our facilities to treat corona virus patients efficiently",
+      "tax_exemption": true,
+      "category": "Medical",
+      "location": "Mumbai",
+      "link": "https://covid19.ketto.org/fundraiser/somaiyahospital",
+      "avatar_url": "https://www.reviewadda.com/assets/uploads/college/logo/LOGO_13402.png",
+      "image_url": "https://d1vdjc70h9nzd9.cloudfront.net/media/campaign/176000/176782/image/5e7f32e29aa2e.jpeg",
+      "partner_ngo": {
+         "name": "K J Somaiya Medical trust",
+         "link": ""
+      },
+      "partner_platform": {
+         "name": "",
+         "link": ""
+      }
+   },
+   {
+      "initiator": {
+         "name": "Motilal Oswal",
+         "type": "Organisation",
+         "link": "https://www.motilaloswal.com/"
+      },
+      "name": "Let's all come together and alleviate the sufferings of the Daily wage earners",
+      "description": "Every little help from you can create a huge impact in supporting underprivileged people and those in need.",
+      "tax_exemption": true,
+      "category": "Food & Hunger",
+      "location": "India",
+      "link": "https://covid19.ketto.org/fundraiser/Dailywageearners",
+      "avatar_url": "https://d28wu8o6itv89t.cloudfront.net/images/motilaloswalMutualFundjpg-1510220187630.jpeg",
+      "image_url": "https://d1vdjc70h9nzd9.cloudfront.net/media/campaign/175000/175614/image/5e7c6c52aa925.jpeg",
+      "partner_ngo": {
+         "name": "Multiple",
+         "link": ""
+      },
+      "partner_platform": {
+         "name": "",
+         "link": ""
+      }
+   },
+   {
+      "initiator": {
+         "name": "Round Table India",
+         "type": "Organisation",
+         "link": "https://www.roundtableindia.org/"
+      },
+      "name": "Help Round Table India and Ladies Circle India Raise Funds For COVID-19 Relief",
+      "description": "Right now, we’re doing everything possible to sustain daily operations and provide services to our community.",
+      "tax_exemption": true,
+      "category": "Food & Hunger",
+      "location": "India",
+      "link": "https://covid19.ketto.org/fundraiser/rtiforcovid19relief",
+      "avatar_url": "https://www.rtiarea13.in/wp-content/uploads/2016/10/round-table-india-logo-home.png",
+      "image_url": "https://d1vdjc70h9nzd9.cloudfront.net/media/campaign/176000/176900/image/bbd529d775c137fa176d86f93ca5e0f057888094.jpg",
+      "partner_ngo": {
+         "name": "Round Table India",
+         "link": ""
+      },
+      "partner_platform": {
+         "name": "",
+         "link": ""
+      }
+   },
+   {
+      "initiator": {
+         "name": "Juveca",
+         "type": "Individual",
+         "link": "http://yuvaindia.org/"
+      },
+      "name": "Together We Can: Spread Love, Not Corona",
+      "description": "Healthcare staff, our police force, BMC workers, NGO volunteers and all essential workers are putting their health at risk to keep us safe. Let's show our support and appreciation to our frontline heroes.",
+      "tax_exemption": true,
+      "category": "Food & Hunger",
+      "location": "Maharashtra",
+      "link": "https://covid19.ketto.org/fundraiser/help-Juveca_Panda-raise-funds-for-covid-19-relief",
+      "avatar_url": "https://yuvaindia.org/wp-content/uploads/2017/03/Yuva_logo.png",
+      "image_url": "https://d1vdjc70h9nzd9.cloudfront.net/media/campaign/173000/173718/image/3f3d1902ec762d0b4120d6b685a7e3f48c6d9cb4.jpeg",
+      "partner_ngo": {
+         "name": "YUVA- Youth for Unity and Voluntary Action",
+         "link": ""
+      },
+      "partner_platform": {
+         "name": "",
+         "link": ""
+      }
    }
 ]
