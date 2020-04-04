@@ -45,8 +45,9 @@
   overflow: hidden;
   margin-top: 16px;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  min-height: 66px;
 
     /* @supports (-webkit-line-clamp: 2) {
       overflow: hidden;
